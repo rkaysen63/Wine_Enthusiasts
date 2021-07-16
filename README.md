@@ -1,7 +1,7 @@
 # Wine_Enthusiasts
 
 <p align="center">
-  <img src="images/placeholder.png" width="800">
+  <img src="images/pexels-brett-sayles-1374552.jpg" width="800">
 </p>
 
 ## Table of Contents
@@ -17,10 +17,7 @@
   * Jupyter Notebook
   * SQL
   * Tableau
-* Photo Acknowledgements:
-  * Wellington, Jill.  https://www.pexels.com/photo/grapes-on-vineyard-during-daytime-39351/
-  * Bruno Cantuária, Bruno.  https://www.pexels.com/photo/cellar-with-wine-bottles-774455/
-  * Claire, Rachel. https://www.pexels.com/photo/fire-near-stumps-and-snack-with-glasses-outside-4825743/
+* Photo Acknowledgement:
   * Sayles, Brett. https://www.pexels.com/photo/red-wine-marquee-signage-on-table-1374552/
 * Lesson Plan: UTA-VIRT-DATA-PT-02-2021-U-B-TTH, Module 20: Final Project
 
