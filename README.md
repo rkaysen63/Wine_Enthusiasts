@@ -1,7 +1,7 @@
 # Wine_Enthusiasts
 
 <p align="center">
-  <img src="images/pexels-brett-sayles-1374552.jpg" width="800">
+  <img src="Images/pexels-brett-sayles-1374552.jpg" width="800">
 </p>
 
 ## Table of Contents
