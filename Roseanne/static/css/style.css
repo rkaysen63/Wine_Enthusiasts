@@ -1,0 +1,37 @@
+/* .jumbotron { */
+    /* background-image: url(https://www.pexels.com/photo/green-tree-field-21393/); */
+    /* background-image: url("static/images/pexels-jill-wellington-39351.jpg"); */
+    /* background-size: 100% 100%; */
+    /* background-size: "cover"; */
+    /* text-align: center; */
+    /* color: white */
+/* } */
+
+.list-group-item-mine {
+    background-color: darkred;
+    color: white
+}
+
+h3 {
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    background-size: "cover"
+}
+
+body {
+    background-color:rgb(165, 221, 247)
+} 
+
+p {
+    color:black
+}
+
+form {
+    background-color: rgb(67, 123, 196);
+    color: white;
+    font-weight: bold;
+    margin: 3pt;
+    padding: 3pt
+
+}

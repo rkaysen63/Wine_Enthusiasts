@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Wine Finder"</title>
+    <!-- Add link to Bootstrap's content delivery network CDN -->
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous">
+    />
+    <!-- Link the style.css file in css folder -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Set up body to store components -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Wine Enthusiasts</h1>
+                <p>Use interactive table to search for wines</p>
+            </div>
+        </div>
+        <!-- Create a container for other elements that will resize as needed 
+            to fully fit the width of the browser. -->
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-md-4">    
+                    <form>
+                        <p>Filter Search</p>
+                        <!-- Create a set of list tags within an unordered list tag -->
+                        <ul class="list-group list-group-item-mine"href="static/css/style.css">
+                         <li class="list-group-item list-group-item-mine"href="static/css/style.css">
+                        <!--https://stackoverflow.com/questions/49205468/how-to-customize-list-group-item-colors-in-bootstrap/49205574-->
+                                <!-- label for each search parameter -->
+                                <label for="Province">Enter Province</label>
+                                <!-- input element that provides the input box -->
+                                <input type="text" placeholder="e.g., Oregon" id="province" class="form-control"/>     
+                         </li>
+                            <li class="list-group-item list-group-item-mine"href="static/css/style.css">
+                                <label for="price">Enter Region</label>
+                                <input type="text" placeholder="e.g., Willamette Valley" id="region_1" class="form-control" /> 
+                            </li>
+                            <li class="list-group-item list-group-item-mine"href="static/css/style.css">
+                                <label for="variety">Enter Variety</label>
+                                <input type="text" placeholder="e.g., Pinot Gris" id="variety" class="form-control" />  
+                         </li>
+                         <li class="list-group-item list-group-item-mine"href="static/css/style.css">
+                            <label for="variety">Enter Winery</label>
+                                <input type="text" placeholder="e.g., Sweet Cheeks" id="winery" class="form-control" />
+                            </li>
+                         <li class="list-group-item list-group-item-mine"href="static/css/style.css">
+                               <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+                               <label for="points">Enter Points (min=80 and max=100)</label>
+                                  <input type="number" placeholder="e.g., 87" id="points" min="80" max="100" class="form-control" />
+                            </li>                           
+                        </ul>
+                    </form>
+                </div>       
+                <div class="col-md-8 jumbotron text-center">
+                    <p>Enjoy wine?<br><br>
+                        What's your favorite flavor?<br><br>
+                    </p>
+                </div> 
+            </div> 
+        </div>
+    </div>   
+        <div class="container-fluid" >
+            <div class="row"> 
+            <!-- Build filter -->
+                <div class="col-md-12">
+                    <h3>Wine Selection Table</h3>
+                </div>                    
+        <div class="container-fluid" >
+            <div class="row"> 
+                <!-- Build filter -->
+                <div class="col-md-12">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th>Description</th>
+                            <th>Points</th>
+                            <th>Price</th>
+                            <th>Province</th>
+                            <th>Region 1</th>
+                            <th>Region 2</th>
+                            <th>Title</th>
+                            <th>Variety</th>
+                            <th>Winery</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>             
+                </div>
+            </div>
+        </div> 
+    </div>         
+    <!-- Import Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <!-- <script src="static/js/data.js"></script> -->
+    <script src="static/json/data.json"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
