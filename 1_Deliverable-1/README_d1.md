@@ -132,7 +132,7 @@ Description of tools used: Technologies, languages, tools, algos used
   * Python (Libraries: pandas, matplotlib, hvplot.pandas, plotly.express, sklearn.preprocessing, sklearn.decomposition, sklearn.cluster)
   * Jupyter Notebook
   * SQL
-  * Tableau
+  * TBD for dashboard: Tableau/webpage 
 
 ### Planning the Presenation
 Google slide draft of presentation
