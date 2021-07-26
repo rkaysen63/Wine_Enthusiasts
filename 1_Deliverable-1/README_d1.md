@@ -27,10 +27,10 @@ This initial data contains basic details of wines:
 ### Data focus
 #### Points
 Ratings of the wine are given in points on a 100-point scale. Scores are determined on both on production quality and how well the wine fits the varietal and region. Wine Enthusiast magazine reviews wines with scores above 80 points. Due to the brand recognition of the Wine Enthusiasts, the winery will only produce very high quality wine, 90 points or more. 
-//Does this mean we should clean the data to only check higher quality wine?//
+
 #### Price
 Similarly, the Wine Enthusiast winery will be a high-end destination winery. The price point will be high by design, as the execs intend to build a winery and need to pay for it! One of the main question they want to answer from the data is what price range they should set for their initial offerings. They know from their industry background what existing wineries can charge for a new wine, but they need help understanding what price category they should include in their budget. 
-//picker could be multiple items, pulling from price bin as well as varietal//
+
 #### Location
 The Wine Enthusiasts know the US wine market and most of the partners already live in the US. For these reasons, their initial focus is the United States. However, the partners plan to move where they start the winery. They hope that the data analysis will help them decide where to begin their location search.
 
@@ -44,9 +44,6 @@ Our team is collaborative and we work with some overlap. This is planned to ensu
 Our team established a central location for sharing code, resources, data, etc. Team members have their own folders to house any individual pieces created, but all team members can access others' information as needed. As we complete stages, we collaborate on internal or external deliverables and move progress to the main shared folder.
 #### Online chat
 We also report progress and ask questions on a team chat. This is mainly done as a handoff before a member's availability is limited, but we also use chat to share resources and announce additions to our group repository that might be useful to other team members.
-
- 
-
  
 ### Machine Learning Model (draft, deliverable 2)
 
@@ -93,7 +90,10 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
-![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ML_Test.png)
+![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.png)
+
+![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.png)
+
 
 ### Description of Database (draft/deliverable 2)
 * Database chosen: SQL via PGadmin
@@ -105,10 +105,12 @@ We also report progress and ask questions on a team chat. This is mainly done as
   * Wine Enthusiast Data
   * Location table
   * Internal: Add results table and any other features added 
-
   * ERD
-![ERD_d1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD_d1.png)
+![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
 
+![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
+
+![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
 
  
 ## Process (to come/2)
