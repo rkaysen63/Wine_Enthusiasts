@@ -94,7 +94,6 @@ We also report progress and ask questions on a team chat. This is mainly done as
 
 <p align="center">
   
->>>>>>> 6e2f7ce9bfe8f6a74a4a6300d20b9739816035af
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
