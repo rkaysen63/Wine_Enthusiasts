@@ -113,6 +113,7 @@ We also report progress and ask questions on a team chat. This is mainly done as
   * ERD
   
 <p align="center">
+  
 ![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
 
 ![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
