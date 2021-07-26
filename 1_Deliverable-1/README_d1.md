@@ -138,7 +138,10 @@ Google slide draft of presentation
 #### Required slides
 
 #### INTERNAL: To do list for next phase of Slides
-//COMPLETE during meeting//
+1. Find images
+2. Set color scheme
+3. Determine how to make slides appear as public when shared (Outline roughly follows readme)
+
 
 ## Results (to come/4)
 ### Results
