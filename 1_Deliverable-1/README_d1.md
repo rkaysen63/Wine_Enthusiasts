@@ -90,7 +90,7 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
-![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.png)
+![ML_Test]1_Deliverable-1/ML_Test.PNG
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.png)
 
