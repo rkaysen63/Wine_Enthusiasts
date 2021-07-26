@@ -1,7 +1,9 @@
 # Wine Enthusiasts Winery
 
 <p align="center">
-  <img src="Images/pexels-brett-sayles-1374552.jpg" width="700">
+  
+![pexels-brett-sayles-1374552](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/pexels-brett-sayles-1374552.jpg)
+
 </p>
 
 ## Table of Contents
@@ -90,10 +92,16 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
+<<<<<<< HEAD
+=======
+<p align="center">
+  
+>>>>>>> 6e2f7ce9bfe8f6a74a4a6300d20b9739816035af
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
 
+</p>
 
 ### Description of Database (draft/deliverable 2)
 * Database chosen: SQL via PGadmin
@@ -106,6 +114,9 @@ We also report progress and ask questions on a team chat. This is mainly done as
   * Location table
   * Internal: Add results table and any other features added 
   * ERD
+  
+<p align="center">
+  
 ![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
 
 
@@ -114,6 +125,7 @@ We also report progress and ask questions on a team chat. This is mainly done as
 
 ![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
 
+</p>
  
 ## Process (to come/2)
 ### Analysis Phase
@@ -125,14 +137,17 @@ Description of tools used: Technologies, languages, tools, algos used
   * Python (Libraries: pandas, matplotlib, hvplot.pandas, plotly.express, sklearn.preprocessing, sklearn.decomposition, sklearn.cluster)
   * Jupyter Notebook
   * SQL
-  * Tableau
+  * TBD for dashboard: Tableau/webpage 
 
 ### Planning the Presenation
 Google slide draft of presentation
 #### Required slides
 
 #### INTERNAL: To do list for next phase of Slides
-//COMPLETE during meeting//
+1. Find images
+2. Set color scheme
+3. Determine how to make slides appear as public when shared (Outline roughly follows readme)
+
 
 ## Results (to come/4)
 ### Results
