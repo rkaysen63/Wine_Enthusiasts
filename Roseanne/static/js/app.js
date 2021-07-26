@@ -1,11 +1,14 @@
+// from data.js
+// var tableData = data;
 
+// from data.json
+var tableData = {}; 
 
 d3.json("static/json/data.json", function(data) {
-  var tableData = data;
-  console.log(data);
+  tableData = data;
+  buildTable(tableData);
+  console.log(tableData);
 });
-
-// var tableData = data;
 
 // get table references
 var tbody = d3.select("tbody");
