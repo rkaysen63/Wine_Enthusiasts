@@ -92,8 +92,6 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
-<<<<<<< HEAD
-=======
 <p align="center">
   
 >>>>>>> 6e2f7ce9bfe8f6a74a4a6300d20b9739816035af
