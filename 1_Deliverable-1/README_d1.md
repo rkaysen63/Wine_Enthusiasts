@@ -93,6 +93,7 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * The RFC ran on average five seconds faster than the EEC. 
 
 <p align="center">
+  
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
