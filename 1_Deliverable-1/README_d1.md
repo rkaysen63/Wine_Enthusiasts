@@ -1,7 +1,7 @@
 # Wine Enthusiasts Winery
 
 <p align="center">
-  <img src="Images/pexels-brett-sayles-1374552.jpg" width="700">
+  <img src="pexels-brett-sayles-1374552.jpg" width="700">
 </p>
 
 ## Table of Contents
@@ -91,6 +91,10 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * The RFC ran on average five seconds faster than the EEC. 
 
 ![ML_Test]1_Deliverable-1/ML_Test.PNG
+
+![ML_Test](1_Deliverable-1/ML_Test.PNG)
+
+![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.png)
 
