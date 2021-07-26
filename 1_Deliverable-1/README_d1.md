@@ -1,7 +1,9 @@
 # Wine Enthusiasts Winery
 
 <p align="center">
-  <img src="pexels-brett-sayles-1374552.jpg" width="700">
+  
+![pexels-brett-sayles-1374552](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/pexels-brett-sayles-1374552.jpg)
+
 </p>
 
 ## Table of Contents
@@ -90,13 +92,10 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
-![ML_Test]1_Deliverable-1/ML_Test.PNG
-
-![ML_Test](1_Deliverable-1/ML_Test.PNG)
 
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
-![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.png)
+![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
 
 
 ### Description of Database (draft/deliverable 2)
