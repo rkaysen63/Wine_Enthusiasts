@@ -88,7 +88,7 @@ function updateFilters() {
         console.log([kee, val]);
         // test to see if tableData comes up before the filter
         console.log(filteredData);
-        filteredData = filteredData.filter(row => row[kee] === val);
+        filteredData = filteredData.filter(row => String(row[kee]) === String(val));
       }
     });
 

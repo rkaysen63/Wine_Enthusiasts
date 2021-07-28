@@ -1,37 +1,84 @@
-/* .jumbotron { */
-    /* background-image: url(https://www.pexels.com/photo/green-tree-field-21393/); */
-    /* background-image: url("static/images/pexels-jill-wellington-39351.jpg"); */
-    /* background-size: 100% 100%; */
-    /* background-size: "cover"; */
-    /* text-align: center; */
-    /* color: white */
-/* } */
+/*https://coolors.co/image-picker*/
 
-.list-group-item-mine {
-    background-color: darkred;
+.jumbotron {
+    /* background-image: url(https://images.pexels.com/photos/21393/pexels-photo.jpg); */
+    background-image: url(https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg);
+    background-size: 100% 100%;
+    background-size: "cover";
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
     color: white
 }
 
+.list-group-item-mine {
+    background-color: RGB(102, 100, 24);/*green*/
+    color: white
+}
+
+
+h1 {
+    color: RGB(77, 0, 19);/*burgandy*/
+    text-align: center;
+    font-weight: bold;
+    background-size: "cover"
+}
+
 h3 {
-    background-color: darkslategrey;
-    color: white;
+    background-color: RGB(17, 33, 13);/*dark-green*/
+    color: RGB(248,250,251);/*lighter light-blue*/
     text-align: center;
     background-size: "cover"
 }
 
-body {
-    background-color:rgb(165, 221, 247)
+h4 {
+    color: RGB(248,250,251);/*lighter light-blue*/
+    text-align: center;
+    background-size: "cover"
+}
+
+body { 
+    /*grey*/
+    /* background-color: RGB(90, 102, 116); */
+    background-color: RGB(172,178,185);
+    /* background-color: RGB(144, 157, 176); */
 } 
 
 p {
-    color:black
+    color: RGB(77, 0, 19);/*burgandy*/
 }
 
 form {
-    background-color: rgb(67, 123, 196);
-    color: white;
+    background-color: RGB(17, 33, 13);/*dark-green*/
+    color: RGB(253, 239, 214);/*cream*/
     font-weight: bold;
-    margin: 3pt;
+    margin: 5pt;
     padding: 3pt
 
 }
+
+/* color palette */
+/* dark-green  */
+    /* background-color: RGB(17, 33, 13);  */
+/* greenish black  */
+    /* background-color: RGB(19, 19, 0);  */
+/*burgandy*/
+    /* background-color: RGB(77, 0, 19); */
+/*slate blue*/
+    /* background-color: RGB(144, 157, 176); */
+/*grey*/
+    /* background-color: RGB(90, 102, 116); */
+/*grey, lighter tint*/
+    /* background-color: RGB(172,178,185)*/
+/*lightblue*/ 
+    /* background-color: RGB(193, 209, 222); */
+/*green*/
+    /* background-color: RGB(102, 100, 24); */
+/*yellow green*/
+    /* background-color: RGB(98, 119, 45); */
+/*cream*/
+    /* background-color: RGB(253, 239, 214); */
+/*dark blue*/ 
+    /* background-color: RGB(26, 75, 114); */
+    
+    
