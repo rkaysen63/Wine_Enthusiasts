@@ -12,7 +12,7 @@
 }
 
 .list-group-item-mine {
-    background-color: RGB(102, 100, 24);/*green*/
+    background-color: RGB(98, 119, 45);/*yellow green*/
     color: white
 }
 
@@ -25,7 +25,9 @@ h1 {
 }
 
 h3 {
-    background-color: RGB(17, 33, 13);/*dark-green*/
+    /*dark-green*/
+    /* background-color: RGB(17, 33, 13); */
+    background-color: RGB(77, 0, 19);/*burgandy*/
     color: RGB(248,250,251);/*lighter light-blue*/
     text-align: center;
     background-size: "cover"
@@ -38,10 +40,7 @@ h4 {
 }
 
 body { 
-    /*grey*/
-    /* background-color: RGB(90, 102, 116); */
-    background-color: RGB(172,178,185);
-    /* background-color: RGB(144, 157, 176); */
+    background-color: RGB(193, 209, 222);/*lightblue*/ 
 } 
 
 p {
@@ -49,7 +48,9 @@ p {
 }
 
 form {
-    background-color: RGB(17, 33, 13);/*dark-green*/
+    /*dark-green*/
+    /* background-color: RGB(17, 33, 13); */
+    background-color: RGB(77, 0, 19);/*burgandy*/
     color: RGB(253, 239, 214);/*cream*/
     font-weight: bold;
     margin: 5pt;
