@@ -51,8 +51,8 @@ Our team is collaborative and we work with some overlap. This is planned to ensu
 Our team established a central location for sharing code, resources, data, etc. Team members have their own folders to house any individual pieces created, but all team members can access others' information as needed. As we complete stages, we collaborate on internal or external deliverables and move progress to the main shared folder.
 #### Online chat
 We also report progress and ask questions on a team chat. This is mainly done as a handoff before a member's availability is limited, but we also use chat to share resources and announce additions to our group repository that might be useful to other team members.
- 
-### Machine Learning Model (draft, deliverable 2)
+
+### Machine Learning Model
 
 #### Preliminary feature selection and engineering 
   * Remove non-US data for initial review
@@ -119,20 +119,21 @@ We also report progress and ask questions on a team chat. This is mainly done as
     * Convenience: All team members have access to PG Admin
     * INTERNAL: Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
+![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
+
+
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
+
+
+![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
+
+
 * Location table:
   * The location table is based off of data from the wine data set. Two google API’s, Place Search and Place IDs, are used to pull the latitude and longitude for each region using a for loop.
 
 
 ![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/location_db.png)
-
-  
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
-
-
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
-
 
 ![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
 
@@ -168,8 +169,9 @@ Description of tools used: Technologies, languages, tools, algos used
   * Google Slides
 
 ### Planning the Presentation
-Google slide draft of presentation includes a database mockup and some less serious presentation of the ideas in this readme.
-There will be more pictures.
+Google slide draft of presentation includes a dashboard mockup and some less serious presentation of the ideas in this readme. There will be pictures.
+
+![dashboard_1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/dashboard_1.png)
 
 
 ## Going forward (to come/stage 4)
@@ -181,10 +183,4 @@ Rec for future analysis
 
 ### Internal: Lessons Learned
 Anything to do differently
-
-
-![dashboard_1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/dashboard_1.png)
-
-
-
 
