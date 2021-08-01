@@ -194,7 +194,7 @@ Rec for future analysis
 Anything to do differently
 * Wine data
   * The wine data was limited to Wine Enthusiast data. To confirm our analysis, we could consider pulling data from other sources. Given how protective the industry is, this would likely involve building a wine scraper to pull data from a competitor.
-* The data set is not separated by year because we wanted general information. However, vintage is very important in the wine industry so we could add production year and run analysis separately by each year to determine whether the data prediction tells a different story in a good wine year versus a middling one.
+  * The data set is not separated by year because we wanted general information. However, vintage is very important in the wine industry so we could add production year and run analysis separately by each year to determine whether the data prediction tells a different story in a good wine year versus a middling one.
 * Other sections to come
 
 
