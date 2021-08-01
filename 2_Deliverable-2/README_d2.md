@@ -110,8 +110,8 @@ We also report progress and ask questions on a team chat. This is mainly done as
 * We then fit the model with our training sets and made predictions with the scaled testing set.
 * After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that shows Accuracy, Precision, Recall, and F1-Scores.
 #### Interpreting the Machine Learning model 
-* We were able to fit the model appropriately  so we are confident in the accuracy measurements
-* Our main interest was Precision but other measures of accuracy were good for wines in the moderately expensive category ($30-$60 range).
+* We were able to fit the model appropriately  so we are confident in the accuracy measurements.
+* Our main interest was Precision but other measures of accuracy were good for wines in the moderately expensive category ($60 and under).
 * We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
   
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
