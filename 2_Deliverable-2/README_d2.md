@@ -92,7 +92,11 @@ We also report progress and ask questions on a team chat. This is mainly done as
         * can be used to rank the importance of input variables in a natural way.
         * can handle thousands of input variables without variable deletion.
         * robust to outliers and nonlinear data.
-        * run efficiently on large datasets.
+        * runs efficiently on large datasets.
+    * Limitations
+        * requires significant computational power to build multiple trees and combine their ouputs.
+        * requires additional time for training multiple trees in order to make determination.
+        * can limit interpretability and does not clarify significance of each variablex
     * In Testing, RFC outperformed the EEC.
         * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
@@ -104,12 +108,17 @@ We also report progress and ask questions on a team chat. This is mainly done as
 * Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm (n_estimators=500) and a random_state=1 parameters.
     * Generally, the higher number makes the predictions stronger and more stable but can slow down the output because of the higher training time allocated. 
 * We then fit the model with our training sets and made predictions with the scaled testing set.
-* After making predictions on the scaled testing data, we analyze how well our random forest model classifies loan applications by creating a Classification report that shows Accuracy, Precision, Recall, and F1-Scores.
-
+* After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that shows Accuracy, Precision, Recall, and F1-Scores.
+#### Interpreting the Machine Learning model 
+* We were able to fit the model appropriately  so we are confident in the accuracy measurements
+* Our main interest was Precision but other measures of accuracy were good for wines in the moderately expensive category ($30-$60 range).
+* We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
   
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
 ![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
+
+![accuracy-results](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/accuracy-results.png)
 
 
 ### Description of Database 
@@ -183,4 +192,12 @@ Rec for future analysis
 
 ### Internal: Lessons Learned
 Anything to do differently
+* Wine data
+  * The wine data was limited to Wine Enthusiast data. To confirm our analysis, we could consider pulling data from other sources. Given how protective the industry is, this would likely involve building a wine scraper to pull data from a competitor.
+* The data set is not separated by year because we wanted general information. However, vintage is very important in the wine industry so we could add production year and run analysis separately by each year to determine whether the data prediction tells a different story in a good wine year versus a middling one.
+* Other sections to come
+
+
+
+
 
