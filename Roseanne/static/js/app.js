@@ -15,7 +15,7 @@ function buildTable(data) {
   tbody.html("");
 
   if (Object.keys(data).length === 0) {
-    tbody.html("Try one filter.  Then refine search.  Case matters.");
+    tbody.html("Try one filter.  Then refine search.");
     return;
   }
 
@@ -98,7 +98,8 @@ function updateFilters() {
           console.log([kee, val]);
           // test to see if tableData comes up before the filter
           console.log(filteredData);
-          filteredData = filteredData.filter(row => String(row[kee]) === String(val));
+          //https://stackoverflow.com/questions/35299534/make-input-fields-case-insensitive-in-javascript
+          filteredData = filteredData.filter(row => String(row[kee]).toLowerCase() === String(val).toLowerCase());
         }
       }
     });
