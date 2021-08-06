@@ -1,4 +1,51 @@
 /*https://coolors.co/image-picker*/
+body { 
+    background-color: RGB(193, 209, 222);/*lightblue*/ 
+} 
+
+nav {
+    /* background-color: RGB(144, 157, 176);slate blue */
+    background-color: RGB(77, 0, 19);/*burgandy*/
+    background-size: "cover"
+
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: RGB(77, 0, 19);/*burgandy*/
+    text-align: center;
+    font-weight: bold;
+    background-size: "cover"
+}
+
+p {
+    color: RGB(77, 0, 19);/*burgandy*/
+}
+
+.list-group-item-mine {
+    background-color: RGB(98, 119, 45);/*yellow green*/
+    color: white
+}
+
+h4 {
+    color: RGB(248,250,251);/*lighter light-blue*/
+    text-align: center;
+    background-size: "cover"
+}
+
+form {
+    background-color: RGB(77, 0, 19);/*burgandy*/
+    color: RGB(253, 239, 214);/*cream*/
+    font-weight: bold;
+    margin: 5pt;
+    padding: 3pt
+
+}
 
 .jumbotron {
     /* background-image: url(https://images.pexels.com/photos/21393/pexels-photo.jpg); */
@@ -11,51 +58,12 @@
     color: white
 }
 
-.list-group-item-mine {
-    background-color: RGB(98, 119, 45);/*yellow green*/
-    color: white
-}
-
-
-h1 {
-    color: RGB(77, 0, 19);/*burgandy*/
-    text-align: center;
-    font-weight: bold;
-    background-size: "cover"
-}
-
 h3 {
-    /*dark-green*/
-    /* background-color: RGB(17, 33, 13); */
-    background-color: RGB(77, 0, 19);/*burgandy*/
+    background-color: RGB(77, 0, 19);/*burgandy */
+    /* background-color: RGB(144, 157, 176);slate blue */
     color: RGB(248,250,251);/*lighter light-blue*/
     text-align: center;
     background-size: "cover"
-}
-
-h4 {
-    color: RGB(248,250,251);/*lighter light-blue*/
-    text-align: center;
-    background-size: "cover"
-}
-
-body { 
-    background-color: RGB(193, 209, 222);/*lightblue*/ 
-} 
-
-p {
-    color: RGB(77, 0, 19);/*burgandy*/
-}
-
-form {
-    /*dark-green*/
-    /* background-color: RGB(17, 33, 13); */
-    background-color: RGB(77, 0, 19);/*burgandy*/
-    color: RGB(253, 239, 214);/*cream*/
-    font-weight: bold;
-    margin: 5pt;
-    padding: 3pt
-
 }
 
 /* color palette */
