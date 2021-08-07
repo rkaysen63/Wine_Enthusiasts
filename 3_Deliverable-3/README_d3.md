@@ -9,8 +9,8 @@
 ## Table of Contents
 * [Overview](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#overview)
 * [Setup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#setup)
-* [Machine Learning Model](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#Machine Learning Model)
-* [Description of Database](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#Description of Database)
+* [Machine Learning Model](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#machine-learning-model)
+* [Description of Database](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#description-of-database)
 * [Process](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#process)
 * [Presentation](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#Presentation)
 * [Results](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#results)
@@ -87,22 +87,22 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
     * Limitations
         * requires significant computational power to build multiple trees and combine their ouputs.
         * requires additional time for training multiple trees in order to make determination.
-        * can limit interpretability and does not clarify significance of each variablex
+        * can limit interpretability and does not clarify significance of each variable
     * In Testing, RFC outperformed the EEC.
-        * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6027861723299182 for the RFC and 0.39787685396188066 for the EEC.
+        * We ran both models ten times, and the results for both were consistent and reproducible with accuracy scores staying around 0.6028 for the RFC and 0.3979 for the EEC.
         * The RFC ran on average five seconds faster than the EEC. 
 
 #### Training the Machine Learning model 
 * We defined the features set using points and variety, and we define the target set by binning the prices of the wines into a column called price bins.  
-* We split the data into training (75%) and testing sets (25%). The ratio is a common standard that allows for enough training without overfitting while leaving a large enough data set for training.
+* We split the data into training (75%) and testing sets (25%). The ratio is a common standard that allows training without overfitting while leaving a large enough data set for training.
 * We created the StandardScaler instance, fit the scaler with the training set, and scaled the data. 
 * Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm (n_estimators=500) and a random_state=1 parameters.
     * Generally, the higher number makes the predictions stronger and more stable but can slow down the output because of the higher training time allocated. 
 * We then fit the model with our training sets and made predictions with the scaled testing set.
-* After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that shows Accuracy, Precision, Recall, and F1-Scores.
+* After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that gives measures of success in several areas: Accuracy, Precision, Recall, and F1-Scores.
 #### Interpreting the Machine Learning model 
 * We were able to fit the model appropriately  so we are confident in the accuracy measurements.
-* Our main interest was Precision but other measures of accuracy were good for wines in the moderately expensive category ($60 and under).
+* Our main interest was Precision but all success measures were good for wines in the moderately expensive category ($60 and under).
 * We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
   
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
@@ -115,9 +115,9 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 ### Description of Database 
 
 * Database chosen: SQL via PGadmin
-  * Advantages
+  * Reasons
     * Convenience: All team members have access to PG Admin
-    * INTERNAL: Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
+    * Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
 ![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
 
@@ -176,7 +176,7 @@ Our client presentation will be in Google slides to go over our process and resu
 ![DashboardScreenshot](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/DashboardScreenshot.png)
 
 The interactive dashboard gives clients an overview by elements.
-Clieints can filtering within elements and see how other elements are affected.
+Clients can filter within elements and see how other elements are affected.
 
 Elements:
   * Model accuracy report
@@ -230,7 +230,7 @@ The moderately expensive category will suit a broader market for Wine Enthusiast
 * Create a lean database to allow for a smaller database
 
 
-### Internal: Lessons Learned
+### Lessons Learned
 * Drink more wine
 * Make the search descriptions by flavor
 * Add partial search on varieties 
