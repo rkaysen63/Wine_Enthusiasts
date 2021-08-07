@@ -1,21 +1,19 @@
 /*https://coolors.co/image-picker*/
+body { 
+    background-color: RGB(193, 209, 222);/*lightblue*/ 
+} 
 
-.jumbotron {
-    /* background-image: url(https://images.pexels.com/photos/21393/pexels-photo.jpg); */
-    background-image: url(https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg);
-    background-size: 100% 100%;
-    background-size: "cover";
+nav {
+    background-color: RGB(77, 0, 19);/*burgandy*/
+    background-size: "cover"
+
+}
+
+a {
+    color: white;
     text-align: center;
-    font-size: x-large;
-    font-weight: bolder;
-    color: white
+    font-weight: bold;
 }
-
-.list-group-item-mine {
-    background-color: RGB(102, 100, 24);/*green*/
-    color: white
-}
-
 
 h1 {
     color: RGB(77, 0, 19);/*burgandy*/
@@ -24,11 +22,14 @@ h1 {
     background-size: "cover"
 }
 
-h3 {
-    background-color: RGB(17, 33, 13);/*dark-green*/
-    color: RGB(248,250,251);/*lighter light-blue*/
-    text-align: center;
-    background-size: "cover"
+p {
+    color: RGB(77, 0, 19);/*burgandy*/
+    font-size: x-large;
+}
+
+.list-group-item-mine {
+    background-color: RGB(98, 119, 45);/*yellow green*/
+    color: white
 }
 
 h4 {
@@ -37,24 +38,30 @@ h4 {
     background-size: "cover"
 }
 
-body { 
-    /*grey*/
-    /* background-color: RGB(90, 102, 116); */
-    background-color: RGB(172,178,185);
-    /* background-color: RGB(144, 157, 176); */
-} 
-
-p {
-    color: RGB(77, 0, 19);/*burgandy*/
-}
-
 form {
-    background-color: RGB(17, 33, 13);/*dark-green*/
+    background-color: RGB(77, 0, 19);/*burgandy*/
     color: RGB(253, 239, 214);/*cream*/
     font-weight: bold;
     margin: 5pt;
     padding: 3pt
 
+}
+
+.jumbotron {
+    background-image: url(https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg);
+    background-size: 100% 100%;
+    background-size: "cover";
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white
+}
+
+h3 {
+    background-color: RGB(77, 0, 19);/*burgandy */
+    color: RGB(248,250,251);/*lighter light-blue*/
+    text-align: center;
+    background-size: "cover"
 }
 
 /* color palette */

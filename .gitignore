@@ -2,6 +2,7 @@ Roseanne/Data
 wine_cleaning_V2.ipynb
 .DS_Store
 config.py
+config.js
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
