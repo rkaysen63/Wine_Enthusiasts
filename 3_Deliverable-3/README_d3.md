@@ -235,7 +235,15 @@ The moderately expensive category will suit a broader market for Wine Enthusiast
 * Make the search descriptions by flavor
 * Add partial search on varieties 
 
+### Links
+* Presentation (Google Slides)
+https://docs.google.com/presentation/d/1al0KPFSLv92ESneYu9sNFrJILiIPfJE4JnmgMALsOQo/edit?usp=sharing
 
+* Dashboard
+https://public.tableau.com/app/profile/delia.davila/viz/WineEnthusiastDashboard_16283449356720/Dashboard1?publish=yes
+
+* Wine Finder
+https://rkaysen63.github.io/Wine_Enthusiasts/index.html
 
 
 
