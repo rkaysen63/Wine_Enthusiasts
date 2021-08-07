@@ -4,7 +4,6 @@ body {
 } 
 
 nav {
-    /* background-color: RGB(144, 157, 176);slate blue */
     background-color: RGB(77, 0, 19);/*burgandy*/
     background-size: "cover"
 
@@ -25,6 +24,7 @@ h1 {
 
 p {
     color: RGB(77, 0, 19);/*burgandy*/
+    font-size: x-large;
 }
 
 .list-group-item-mine {
@@ -48,19 +48,17 @@ form {
 }
 
 .jumbotron {
-    /* background-image: url(https://images.pexels.com/photos/21393/pexels-photo.jpg); */
     background-image: url(https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg);
     background-size: 100% 100%;
     background-size: "cover";
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bolder;
     color: white
 }
 
 h3 {
     background-color: RGB(77, 0, 19);/*burgandy */
-    /* background-color: RGB(144, 157, 176);slate blue */
     color: RGB(248,250,251);/*lighter light-blue*/
     text-align: center;
     background-size: "cover"
