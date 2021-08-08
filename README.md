@@ -107,9 +107,9 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
   
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
-![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
+![RFC_Visual](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Visual.png)
 
-![accuracy-results](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/accuracy-results.png)
+![RFC_Accuracy](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Accuracy.PNG)
 
 
 ### Description of Database 
@@ -119,23 +119,23 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
     * Convenience: All team members have access to PG Admin
     * Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
+![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD.PNG)
 
 
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
 
 
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
+![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineMag_DB.PNG)
 
 
 * Location table:
   * The location table is based off of data from the wine data set. Two google API’s, Place Search and Place IDs, are used to pull the latitude and longitude for each region using a for loop.
 
+![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/location_db.png)
 
-![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/location_db.png)
 
-![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
+![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineRegions.png)
 
  
 ## Process
@@ -193,8 +193,7 @@ Elements:
 
 ## The Wine Finder
 
-![dashboard_1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/dashboard_1.png)
-
+![filtered_wine_finder](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/filtered_wine_finder.png)
 
 Filters include search by:
   * Province or state in the U.S.
