@@ -110,8 +110,7 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
   <img src="Images/ML_Test.png" width="450"><br><br/><br><br/>
   <img src="Images/RFC_Visual.png" width="800"><br><br/><br><br/>
   <img src="Images/RFC_Accuracy.PNG" width="500">
-</p>
-
+</p><br/><br/> 
 
 ### Description of Database 
 
