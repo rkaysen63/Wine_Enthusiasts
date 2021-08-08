@@ -30,7 +30,7 @@ This initial data contains basic details of wines:
 * Evaluation details: price, points, reviewer information
 * Location: province, country 
 
-![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/US_Wine_Data_df.png)
+![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/US_Wine_Data_df.png)
 
 
 ### Data focus
@@ -107,9 +107,9 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
   
 ![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
 
-![RFC_Visual](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Visual.png)
+![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
 
-![RFC_Accuracy](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Accuracy.PNG)
+![accuracy-results](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/accuracy-results.png)
 
 
 ### Description of Database 
@@ -121,23 +121,21 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 
 ![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
 
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD.PNG)
-
 
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
 
 
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineMag_DB.PNG)
+![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
 
 
 * Location table:
   * The location table is based off of data from the wine data set. Two google API’s, Place Search and Place IDs, are used to pull the latitude and longitude for each region using a for loop.
 
 
-![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/location_db.png)
+![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/location_db.png)
 
-![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineRegions.png)
+![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
 
  
 ## Process
@@ -170,6 +168,11 @@ Description of tools used: Technologies, languages, tools, algos used
   * GitHub
   * Google Slides
 
+
+![Technology](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/Technology.png)
+
+
+
 ### Presentation
 Our client presentation will be in Google slides to go over our process and results. We will include screenshots of the material that we'll provide the client for their further research. This includes a dashboard and a wine finder.
 
@@ -190,7 +193,8 @@ Elements:
 
 ## The Wine Finder
 
-![filtered_wine_finder](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/filtered_wine_finder.png)
+![dashboard_1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/dashboard_1.png)
+
 
 Filters include search by:
   * Province or state in the U.S.
