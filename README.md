@@ -107,7 +107,7 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 
   
 <p align="center">
-  <img src="Images/ML_Test.png" width="500"><br><br/><br><br/>
+  <img src="Images/ML_Test.png" width="450"><br><br/><br><br/>
   <img src="Images/RFC_Visual.png" width="800"><br><br/><br><br/>
   <img src="Images/RFC_Accuracy.PNG" width="500">
 </p>
@@ -120,23 +120,25 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
     * Convenience: All team members have access to PG Admin
     * Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD.png)
-
+<p align="center">
+  <img src="Images/ERD.png" width="500">
+</p>
 
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
 
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineMag_DB.png)
+<p align="center">
+  <img src="Images/WineMag_DB.png">
+</p>
 
 
 * Location table:
   * The location table is based off of data from the wine data set. Two google API’s, Place Search and Place IDs, are used to pull the latitude and longitude for each region using a for loop.
 
-![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/location_db.png)
-
-
-![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineRegions.png)
-
+<p align="center">
+  <img src="Images/location_db.png" width="450"><br><br/><br><br/>
+  <img src="Images/WineRegions.png" width="550">
+</p>
  
 ## Process
 
@@ -168,10 +170,9 @@ Description of tools used: Technologies, languages, tools, algos used
   * GitHub
   * Google Slides
 
-
-![Technology](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/Technology.png)
-
-
+<p align="center">
+  <img src="Images/Technology.png">
+</p>
 
 ### Presentation
 Our client presentation will be in Google slides to go over our process and results. We will include screenshots of the material that we'll provide the client for their further research. This includes a dashboard and a wine finder.
