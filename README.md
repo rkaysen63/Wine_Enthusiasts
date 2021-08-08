@@ -96,7 +96,7 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 * We defined the features set using points and variety, and we define the target set by binning the prices of the wines into a column called price bins.  
 * We split the data into training (75%) and testing sets (25%). The ratio is a common standard that allows training without overfitting while leaving a large enough data set for training.
 * We created the StandardScaler instance, fit the scaler with the training set, and scaled the data. 
-* Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm (n_estimators=500) and a random_state=1 parameters.
+* Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm> (n_estimators=500) and a random_state=1 parameters.
     * Generally, the higher number makes the predictions stronger and more stable but can slow down the output because of the higher training time allocated. 
 * We then fit the model with our training sets and made predictions with the scaled testing set.
 * After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that gives measures of success in several areas: Accuracy, Precision, Recall, and F1-Scores.
@@ -106,11 +106,11 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 * We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
 
   
-![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ML_Test.png)
-
-![RFC_Visual](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Visual.png)
-
-![RFC_Accuracy](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Accuracy.PNG)
+<p align="center">
+  <img src="Images/ML_Test.png" width="500"><br><br/><br><br/>
+  <img src="Images/RFC_Visual.png" width="800"><br><br/><br><br/>
+  <img src="Images/RFC_Accuracy.PNG" width="500">
+</p>
 
 
 ### Description of Database 
