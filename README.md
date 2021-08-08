@@ -30,7 +30,7 @@ This initial data contains basic details of wines:
 * Evaluation details: price, points, reviewer information
 * Location: province, country 
 
-![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/US_Wine_Data_df.png)
+![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/US_Wine_Data_df.png)
 
 
 ### Data focus
@@ -104,8 +104,9 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 * We were able to fit the model appropriately  so we are confident in the accuracy measurements.
 * Our main interest was Precision but all success measures were good for wines in the moderately expensive category ($60 and under).
 * We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
+
   
-![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
+![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ML_Test.png)
 
 ![RFC_Visual](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/RFC_Visual.png)
 
@@ -119,14 +120,13 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
     * Convenience: All team members have access to PG Admin
     * Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD.PNG)
+![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/ERD.png)
 
 
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
 
-
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineMag_DB.PNG)
+![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/WineMag_DB.png)
 
 
 * Location table:
