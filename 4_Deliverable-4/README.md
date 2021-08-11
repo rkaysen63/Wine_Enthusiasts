@@ -30,7 +30,7 @@ This initial data contains basic details of wines:
 * Evaluation details: price, points, reviewer information
 * Location: province, country 
 
-![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/US_Wine_Data_df.png)
+![US_Wine_Data_df](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/US_Wine_Data_df.png)
 
 
 ### Data focus
@@ -96,7 +96,7 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 * We defined the features set using points and variety, and we define the target set by binning the prices of the wines into a column called price bins.  
 * We split the data into training (75%) and testing sets (25%). The ratio is a common standard that allows training without overfitting while leaving a large enough data set for training.
 * We created the StandardScaler instance, fit the scaler with the training set, and scaled the data. 
-* Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm (n_estimators=500) and a random_state=1 parameters.
+* Before we fit the random forest model to our X_train_scaled and y_train training data, we created a random forest instance using the random forest classifier, RandomForestClassifier() using two parameters:  the number of trees created by the algorithm> (n_estimators=500) and a random_state=1 parameters.
     * Generally, the higher number makes the predictions stronger and more stable but can slow down the output because of the higher training time allocated. 
 * We then fit the model with our training sets and made predictions with the scaled testing set.
 * After making predictions on the scaled testing data, we analyze how well our random forest model classifies price bins by creating a Classification report that gives measures of success in several areas: Accuracy, Precision, Recall, and F1-Scores.
@@ -104,13 +104,13 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
 * We were able to fit the model appropriately  so we are confident in the accuracy measurements.
 * Our main interest was Precision but all success measures were good for wines in the moderately expensive category ($60 and under).
 * We think our model is a good predictor for wines in the moderately expensive category. Since that category will suit a broader market, we think Wine Enthusiast will be interested in that category over more extreme price categories for their initial offerings
+
   
-![ML_Test](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ML_Test.PNG)
-
-![RFC_Mockup](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/RFC_Mockup.PNG)
-
-![accuracy-results](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/accuracy-results.png)
-
+<p align="center">
+  <img src="Images/ML_Test.png" width="450"><br><br/><br><br/>
+  <img src="Images/RFC_Visual.png" width="800"><br><br/><br><br/>
+  <img src="Images/RFC_Accuracy.PNG" width="500">
+</p><br/><br/> 
 
 ### Description of Database 
 
@@ -119,24 +119,25 @@ The Wine Enthusiasts know the US wine market and most of the partners already li
     * Convenience: All team members have access to PG Admin
     * Future projects: Using Wine Enthusiast or other branded connection might limit our future use of the project for training or template purposes
 
-![ERD](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/ERD.png)
-
+<p align="center">
+  <img src="Images/ERD.png" width="500">
+</p>
 
 * Wine data
   * The starting wine data was sourced from Kaggle. The data set contains wineries, regions, variety, title, points, price, and the description.
 
-
-![WineMag_DB](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineMag_DB.png)
+<p align="center">
+  <img src="Images/WineMag_DB.png">
+</p>
 
 
 * Location table:
   * The location table is based off of data from the wine data set. Two google API’s, Place Search and Place IDs, are used to pull the latitude and longitude for each region using a for loop.
 
-
-![location_db](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/location_db.png)
-
-![WineRegions](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/1_Deliverable-1/WineRegions.png)
-
+<p align="center">
+  <img src="Images/location_db.png" width="450"><br><br/><br><br/>
+  <img src="Images/WineRegions.png" width="550">
+</p>
  
 ## Process
 
@@ -168,6 +169,10 @@ Description of tools used: Technologies, languages, tools, algos used
   * GitHub
   * Google Slides
 
+<p align="center">
+  <img src="Images/Technology.png">
+</p>
+
 ### Presentation
 Our client presentation will be in Google slides to go over our process and results. We will include screenshots of the material that we'll provide the client for their further research. This includes a dashboard and a wine finder.
 
@@ -188,8 +193,7 @@ Elements:
 
 ## The Wine Finder
 
-![dashboard_1](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/2_Deliverable-2/Images/dashboard_1.png)
-
+![filtered_wine_finder](https://github.com/rkaysen63/Wine_Enthusiasts/blob/main/Images/filtered_wine_finder.png)
 
 Filters include search by:
   * Province or state in the U.S.
@@ -237,7 +241,7 @@ The moderately expensive category will suit a broader market for Wine Enthusiast
 
 ### Links
 * Presentation (Google Slides)
-https://docs.google.com/presentation/d/1al0KPFSLv92ESneYu9sNFrJILiIPfJE4JnmgMALsOQo/edit?usp=sharing
+https://docs.google.com/presentation/d/1DSU7jVnjzbvJewP3Y8TnrRmQik0nZM3V4r6Cz7sJtEs/edit?usp=sharing
 
 * Dashboard
 https://public.tableau.com/app/profile/delia.davila/viz/WineEnthusiastDashboard_16283449356720/Dashboard1?publish=yes
@@ -246,4 +250,5 @@ https://public.tableau.com/app/profile/delia.davila/viz/WineEnthusiastDashboard_
 https://rkaysen63.github.io/Wine_Enthusiasts/index.html
 
 
+[Back to the Table of Contents](https://github.com/rkaysen63/Wine_Enthusiasts/blob/master/README.md#table-of-contents)
 
